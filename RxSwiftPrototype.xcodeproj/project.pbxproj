@@ -17,6 +17,7 @@
 		2F25D6B21CFE34C0004FD1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F25D6B01CFE34C0004FD1D7 /* LaunchScreen.storyboard */; };
 		2F25D6BD1CFE34C0004FD1D7 /* RxSwiftPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F25D6BC1CFE34C0004FD1D7 /* RxSwiftPrototypeTests.swift */; };
 		2F25D6C81CFE34C0004FD1D7 /* RxSwiftPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F25D6C71CFE34C0004FD1D7 /* RxSwiftPrototypeUITests.swift */; };
+		2FACB1161D00A89C00EE1BCF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FACB1151D00A89C00EE1BCF /* TableViewCell.swift */; };
 		87286670378E4AEFB3E198EE /* Pods_RxSwiftPrototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE9A21B4604CB11106EA6D9 /* Pods_RxSwiftPrototype.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		2F25D6C31CFE34C0004FD1D7 /* RxSwiftPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F25D6C71CFE34C0004FD1D7 /* RxSwiftPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftPrototypeUITests.swift; sourceTree = "<group>"; };
 		2F25D6C91CFE34C0004FD1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FACB1151D00A89C00EE1BCF /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5AE9A21B4604CB11106EA6D9 /* Pods_RxSwiftPrototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPrototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8103BAF613FEC758E2F51E /* Pods-RxSwiftPrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPrototype.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftPrototype/Pods-RxSwiftPrototype.release.xcconfig"; sourceTree = "<group>"; };
 		DAD7B990069FF74D2D534ECB /* Pods-RxSwiftPrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPrototype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftPrototype/Pods-RxSwiftPrototype.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				2F25D6A71CFE34C0004FD1D7 /* AppDelegate.swift */,
 				2F25D6A91CFE34C0004FD1D7 /* ViewController.swift */,
 				2F25D6AB1CFE34C0004FD1D7 /* Main.storyboard */,
+				2FACB1151D00A89C00EE1BCF /* TableViewCell.swift */,
 				2F25D6AE1CFE34C0004FD1D7 /* Assets.xcassets */,
 				2F25D6B01CFE34C0004FD1D7 /* LaunchScreen.storyboard */,
 				2F25D6B31CFE34C0004FD1D7 /* Info.plist */,
@@ -343,6 +346,7 @@
 				2F25D6AA1CFE34C0004FD1D7 /* ViewController.swift in Sources */,
 				2F25D6A81CFE34C0004FD1D7 /* AppDelegate.swift in Sources */,
 				2F0171881CFE373A0013CFFB /* Slotter.swift in Sources */,
+				2FACB1161D00A89C00EE1BCF /* TableViewCell.swift in Sources */,
 				2F01718A1CFE37470013CFFB /* Playlist.swift in Sources */,
 				2F01718C1CFE45710013CFFB /* Video.swift in Sources */,
 			);
